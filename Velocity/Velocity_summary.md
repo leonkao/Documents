@@ -1,4 +1,4 @@
-＃ Velocity 簡介
+# Velocity 簡介
 
 ## Velocity說明
 	Velocity是一個基礎Java的模板引擎(Template Engine)，是由Apache提出，Apache對Velocity對他的定義是使用簡單的模板語言(Template Language)來引用由Java代碼定義的對象。
