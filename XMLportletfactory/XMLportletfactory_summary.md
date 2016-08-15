@@ -14,58 +14,58 @@
 
 ## 1.在下載完XMLPortletFactory的檔案解壓縮後會有這些檔案如圖
 
-#![](XMLportletfactory/image/XMLPortletFactory001.png)
+#![](image/XMLPortletFactory001.png)
 
 ## 2.將整個資料夾移動放置自己設定liferay的sdk資料夾裡面如圖
 
-#![](XMLportletfactory/image/XMLPortletFactory002.png)
+#![](image/XMLPortletFactory002.png)
 
 ## 3.下載Apache-ant 並解壓縮到自己設定的資料夾內
 
-#![](XMLportletfactory/image/XMLPortletFactory003.png)
+#![](image/XMLPortletFactory003.png)
 
 ## 4.由於需要使用一些command line指令，而在windows上直接輸入是不會有任何回應的，所以需要設定一些環境變數，如ant.
 
 ## 5.所以將需要的檔案放置好個資料夾後開始設定環境變數
 ## 6.點選我的電腦右鍵內容-->進階系統設定-->系統內容
 
-#![](XMLportletfactory/image/XMLPortletFactory004.png)
+#![](image/XMLPortletFactory004.png)
 
 ## 7.點選下方環境變數
 
-#![](XMLportletfactory/image/XMLPortletFactory005.png)
+#![](image/XMLPortletFactory005.png)
 
 ## 8.在此新增一個環境變數為，變數名稱： ANT_HOME  變數值：C:\JAVA\apache-ant-1.9.7 (你所放置之apache-ant的資料夾)
 
 ## 9.接下來在環境變數裡編輯Path變數的值，在值的後面增加  %ANT_HOME%\bin;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
-#![](XMLportletfactory/image/XMLPortletFactory006.png)
+#![](image/XMLPortletFactory006.png)
 
 ## 10.開啟命令提示字元輸入自己設定的Xmlportletfactory資料夾內
 
-#![](XMLportletfactory/image/XMLPortletFactory007.png)
+#![](image/XMLPortletFactory007.png)
 
 ## 11.開一個新的Xmlportletfactory檔案 
 	-create.bat max “max”   ==>	create.bat (檔名) “資料夾名稱”
 
-#![](XMLportletfactory/image/XMLPortletFactory008.png)
+#![](image/XMLPortletFactory008.png)
 
 ## 12.Build successful後會在xmlportletfactory裡面出現一個max-xmlportletfactory的資料夾然後進入該資料夾再輸入ant
 ## 13.Build successful後表示成功
 
-#![](XMLportletfactory/image/XMLPortletFactory009.png)
+#![](image/XMLPortletFactory009.png)
 
 ## 14.進入eclipse -->import一個Liferay Projects From Plugins SDK
 
-#![](XMLportletfactory/image/XMLPortletFactory010.png)
+#![](image/XMLPortletFactory010.png)
 
 ## 15.選擇max-porlet(C:\JAVA\liferay-plugins-sdk-6.2\portlets\max-portlet)
 
-#![](XMLportletfactory/image/XMLPortletFactory011.png)
+#![](image/XMLPortletFactory011.png)
 
 ## 16.進入liferay網頁後再增加applications部分下便可以看到max這個portlet的部分出現在上面
 
-#![](XMLportletfactory/image/XMLPortletFactory012.png)
+#![](image/XMLPortletFactory012.png)
 
 ## 17.要編輯他的相關檔案則是在自己設定的資料夾(本文的為下列位址)
 C:\JAVA\liferay-plugins-sdk-6.2\XMLPortletFactory\max-xmlportletfactory
